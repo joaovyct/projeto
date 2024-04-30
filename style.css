@@ -1,0 +1,53 @@
+body{
+font-family: 'Open Sans', sans-serif;
+text-align: center;
+margin: 0; /* para colar a imagem no topo da pagina*/
+}
+
+#hero{
+width: 593px;
+margin: 0  auto 72px; /* mesma coisa que escrever margin margin-top, margin-right, margin-bottom*/
+}
+
+h1{
+  font-family: 'Inter', sans-serif;
+  font-size: 49px;
+  line-height: 56px;      /*altura da linha*/
+  font-weight: normal;
+}
+
+h1 span{
+  font-weight: bold;  /*entrando dentro do span que esta dentro do h1*/
+}
+
+
+span, a{
+  color: #FF9900;
+}
+
+p, footer{
+  color: #7D7987;
+
+  size: 14px;
+  line-height: 28px;
+}
+
+#footer a + a{ /*procure um a anterior a um a*/
+
+margin-left: 28px;
+
+}
+
+.line{
+  width: 568px; /*lagura da linha*/
+  height: 0px; /*altura*/
+  border: 1px #eceff2 solid;
+  margin: 0 auto 8px;
+
+}
+
+#balls{
+  position: fixed; /*usando o position, habilita novas propriedades*/
+  bottom: 0px; /*para deixar as bolinhas embaixo*/
+  right: 0px; /*na direita, colado na borda*/
+}
